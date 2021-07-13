@@ -1,0 +1,303 @@
+/* ------------------
+common css
+--------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  padding-left: 156px;
+  padding-right: 140px;
+}
+/* ------------------
+section one style
+---------------------- */
+.section-one {
+  width: 100%;
+  background-color: #2d25a0;
+}
+.top-part {
+  display: flex;
+}
+.half {
+  width: 50%;
+}
+
+.top-part {
+  padding-top: 67px;
+  padding-bottom: 86px;
+}
+
+.top-part h1 {
+  font-size: 64px;
+  font-size: 64px;
+  color: #ffffff;
+}
+
+.top-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.top-left span {
+  margin-top: 27px;
+}
+
+.top-left a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 24px 10px 24px;
+  background-color: #e02c6d;
+}
+
+.top-left .fa-arrow-right {
+  padding-left: 8px;
+}
+
+.top-banner img {
+  width: 100%;
+  transition: transform 1s;
+}
+
+.top-banner img:hover {
+  transform: scale(1.1) translateX(40px);
+}
+
+/* ------------------
+section two style
+---------------------- */
+
+.section-two {
+  background-color: #fdfdfd;
+  padding-left: 156px;
+  padding-right: 140px;
+  padding-top: 70px;
+  padding-bottom: 165px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 27px;
+}
+.card {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+}
+.card h2 {
+  font-size: 28px;
+}
+.card-img img {
+  width: 100%;
+}
+
+/* ------------------
+section three style
+---------------------- */
+.section-three {
+  padding-left: 156px;
+  padding-right: 140px;
+  padding-bottom: 58px;
+  display: flex;
+}
+
+.secton-three-right img {
+  width: 100%;
+}
+.secton-three-left {
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.secton-three-left h1 {
+  font-size: 48px;
+}
+
+.secton-three-left span {
+  margin-top: 27px;
+}
+
+.secton-three-left a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 24px 10px 24px;
+  background-color: #e02c6d;
+}
+.secton-three-left .fa-arrow-right {
+  padding-left: 8px;
+}
+
+/* section four style */
+.section-four {
+  padding-left: 156px;
+  padding-right: 140px;
+  padding-bottom: 58px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 228px;
+}
+.footer-icons {
+  margin-top: 30px;
+  text-align: center;
+}
+.footer-icons p {
+  margin-top: 10px;
+}
+.footer-icons .fab {
+  padding: 0 15px;
+  font-size: 18px;
+}
+/* for tablet  */
+@media only screen and (max-width: 961px) {
+  /* ------------------
+section one style
+---------------------- */
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .half {
+    width: 100%;
+  }
+  .top-part h1 {
+    font-size: 36px;
+  }
+
+  .top-part {
+    flex-direction: column;
+  }
+
+  .top-banner {
+    margin-top: 52px;
+  }
+  .top-part {
+    padding-top: 47px;
+    padding-bottom: 60px;
+  }
+  .top-banner img:hover {
+    transform: scale(1.08);
+  }
+
+  /* ------------------
+section two style
+---------------------- */
+  .section-two {
+    background-color: #fdfdfd;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 47px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    grid-row-gap: 24px;
+  }
+
+  /* ------------------
+section three style
+---------------------- */
+  .section-three {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 55px;
+    flex-direction: column;
+  }
+  .secton-three-right {
+    margin-top: 30px;
+  }
+
+  .secton-three-left h1 {
+    font-size: 30px;
+  }
+
+  /* section four style */
+  .section-four {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 180px;
+  }
+}
+
+/* --------------
+for mobile
+----------------- */
+@media only screen and (max-width: 560px) {
+  /* ------------------
+section one style
+---------------------- */
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .half {
+    width: 100%;
+  }
+  .top-part h1 {
+    font-size: 36px;
+  }
+
+  .top-part {
+    flex-direction: column;
+  }
+
+  .top-banner {
+    margin-top: 52px;
+  }
+  .top-part {
+    padding-top: 47px;
+    padding-bottom: 60px;
+  }
+  .top-banner img:hover {
+    transform: scale(1.08);
+  }
+
+  /* ------------------
+section two style
+---------------------- */
+  .section-two {
+    background-color: #fdfdfd;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 47px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    grid-row-gap: 24px;
+  }
+
+  /* ------------------
+section three style
+---------------------- */
+  .section-three {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 55px;
+    flex-direction: column;
+  }
+  .secton-three-right {
+    margin-top: 30px;
+  }
+
+  .secton-three-left h1 {
+    font-size: 30px;
+  }
+
+  /* section four style */
+  .section-four {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 180px;
+  }
+}
