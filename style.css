@@ -191,6 +191,32 @@ section three style
   font-size: 55px;
   line-height: 70px;
 }
+
+/* extra two */
+.section-extra-two {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 50px;
+  margin-top: 30px;
+  padding-left: 156px;
+  padding-right: 140px;
+  padding-bottom: 100px;
+}
+.section-extra-two img {
+  cursor: pointer;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.section-sponsor {
+  text-align: center;
+  margin-top: 30px;
+}
+.section-sponsor span {
+  font-size: 30px;
+  font-weight: 500;
+}
 /* for tablet  */
 @media only screen and (max-width: 961px) {
   /* ------------------
@@ -277,6 +303,23 @@ section three style
     font-size: 20px;
     line-height: 30px;
   }
+  
+  /* extra two */
+  .section-extra-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 50px;
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 100px;
+  }
+  .section-extra-two img {
+    width: 60%;
+  }
+
+  .section-sponsor span {
+    font-size
 }
 
 /* --------------
@@ -366,5 +409,23 @@ section three style
   .extra-one-right p {
     font-size: 20px;
     line-height: 30px;
+  }
+
+  /* extra two */
+  .section-extra-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 50px;
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 100px;
+  }
+  .section-extra-two img {
+    width: 60%;
+  }
+
+  .section-sponsor span {
+    font-size: 20px;
   }
 }
